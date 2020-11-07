@@ -13,6 +13,11 @@ misionCont.className = "misionCont";
 misionCont.innerHTML = (
         '<p>'+this.tarea.mision+'</p>');
 
+        let fecha = document.createElement('div');
+        fecha.className = "fecha";
+        fecha.innerHTML = (
+                this.tarea.fechaa);     
+
 
  let deletebtn = document.createElement('button');
 deletebtn.className = 'deletebtn';
@@ -24,10 +29,11 @@ azulsigbtn.innerHTML = '';
 
 
 
-
+component.appendChild(fecha); 
  component.appendChild(misionCont);
  component.appendChild(deletebtn); 
  component.appendChild(azulsigbtn); 
+ 
 
 
 //eliminar comentario

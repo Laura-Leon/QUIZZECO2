@@ -36,6 +36,26 @@
     position: relative;
     border-radius: 0.5em;
 }
+.fi2{
+    margin-top : 1em ;
+    margin-bottom: 1em;
+    background: #EEE;
+    width:  10em;
+    padding: 0.8em;
+    position: relative;
+    border-radius: 0.5em;
+}
+.fi3{
+    margin-top : 1em ;
+    margin-bottom: 1em;
+    background: #EEE;
+    width:  10em;
+    padding: 0.8em;
+    position: relative;
+    border-radius: 0.5em;
+}
+
+
 
 #titulosTrello{
 
@@ -51,7 +71,7 @@
 }
 
 #titulosTrello *{
-padding: 20px 100px;
+padding: 20px 50px;
   background: rgb(184, 135, 230);
   color:white;
   margin: 0 auto;
@@ -64,12 +84,12 @@ padding: 20px 100px;
     justify-content: left;
     align-items: flex-start;
     flex-direction:row;
-    margin: 50px;
+    margin: 0 auto;
 }
 #filasTrello *{
-    padding: 10px 10px;
+    padding: 15px 15px;
   
-  margin-right: 10%;
+  margin: 0 auto;
 
 }
 .misionCont{
@@ -112,5 +132,23 @@ padding: 20px 100px;
 
 #DivToDO{
 background: rgb(96, 150, 201);
+margin: 0 auto;
 }
+#divDoing{
+    background: rgb(96, 150, 201);
+    margin: 0 auto;
+
+    }
+#divDone{
+    background: rgb(96, 150, 201);
+    margin: 0 auto;
+        }
+.fecha{
+  
+    position:absolute;
+    left: 10px;
+    top : 10px;
+  
+}
+
 
