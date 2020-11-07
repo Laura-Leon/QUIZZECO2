@@ -1,0 +1,116 @@
+#titulo{
+    display: flex;
+    margin: 0auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+#Trello{
+    display: flex;
+    margin: 0auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row; 
+    height: 40px;
+}
+
+
+#nuevatareabtn{
+    padding: 5px 5px;
+    background: rgb(184, 135, 230);
+    color:white;
+}
+#inputarea{
+    padding: 5px 5px;
+    background: rgb(248, 241, 255);  
+
+}
+
+.fi{
+    margin-top : 1em ;
+    margin-bottom: 1em;
+    background: #EEE;
+    width:  10em;
+    padding: 0.8em;
+    position: relative;
+    border-radius: 0.5em;
+}
+
+#titulosTrello{
+
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+
+  
+    
+
+}
+
+#titulosTrello *{
+padding: 20px 100px;
+  background: rgb(184, 135, 230);
+  color:white;
+  margin: 0 auto;
+
+}
+
+#filasTrello{
+    display: flex;
+   
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction:row;
+    margin: 50px;
+}
+#filasTrello *{
+    padding: 10px 10px;
+  
+  margin-right: 10%;
+
+}
+.misionCont{
+    
+    padding: 5px 5px;
+    background: rgb(88, 175, 209);
+    flex-direction:row;
+    margin-bottom: 10%;
+   
+
+}
+.deletebtn{
+    background-color:red;
+    position:absolute;
+    right: 10px;
+    top : 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   
+}
+.azulsigbtn{
+    background-color: royalblue;
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+}
+.amarilloatrasbtn{
+    background-color: sandybrown;
+    position:absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+}
+
+#DivToDO{
+background: rgb(96, 150, 201);
+}
+

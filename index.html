@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>s11</title>
+    <link rel = "stylesheet" href= "index.css">
+</head>
+<body>
+    <h1 id ="titulo">Global Solution SAS</h1>
+    <div id= "Trello">
+        
+        <input id ="inputarea" type = "text" placeholder="Descripción de la tarea">
+        <button id ="nuevatareabtn"> Nueva Tarea </button>
+    </div>
+
+    <div id="titulosTrello">
+        <h3 id= "tituloToDo">To Do</h3>
+        <h3 id= "tituloDoing">Doing </h3>
+        <h3 id= "tituloDone">Done</h3>
+    </div>
+
+<div id="filasTrello">
+    <div id="DivToDO"></div>
+    <div id="divDoing"></div>
+    <div id="divDone"></div>
+
+  </div>  
+    
+</body>
+</html>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+
+<script>
+ 
+  var firebaseConfig = {
+    apiKey: "AIzaSyAYuyfvaCwOsnmX4E9u-eYI_E2exAMNP38",
+    authDomain: "quizz2eco.firebaseapp.com",
+    databaseURL: "https://quizz2eco.firebaseio.com",
+    projectId: "quizz2eco",
+    storageBucket: "quizz2eco.appspot.com",
+    messagingSenderId: "830632277629",
+    appId: "1:830632277629:web:42afd24b4bf74cd1bc2314",
+    measurementId: "G-CTBLRC75XN"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<script src = "componentes/Tarea.js"></script>
+
+<script src = "index.js"></script>
